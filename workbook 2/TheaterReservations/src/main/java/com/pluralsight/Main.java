@@ -18,6 +18,7 @@ public class Main {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
         LocalDate date  = LocalDate.parse(movieDate,formatter);
         DateTimeFormatter desiredformat = DateTimeFormatter.ofPattern("yyyy d MMM");
+
         String finalformattedDate = date.format(desiredformat);
 
 
