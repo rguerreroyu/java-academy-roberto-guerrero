@@ -44,7 +44,7 @@ public class Reservation {
         }
 
         if (weekend) {
-            basePrice *= 1.10;  // increase by 10%
+            basePrice *= 1.10;
         }
 
         return basePrice;
